@@ -1,0 +1,65 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+		Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+	background-color: #444;
+	color: #000;
+	font-size: 1.1rem;
+	margin-inline: 215px;
+}
+
+.banner-container {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 600px;
+	overflow: hidden;
+}
+.banner-container .banner-background {
+	width: 95%;
+	height: 480px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.79);
+	overflow: hidden;
+}
+
+.banner-background img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.banner-container .profile-picture {
+	position: absolute;
+	bottom: 20px;
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	box-shadow: 0px 0px 20px 8px rgba(0, 0, 0, 0.79);
+	overflow: hidden;
+}
+.profile-picture img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.gallery-container {
+	display: grid;
+  	align-items: center;
+	width: 100%;
+	height: 600px;
+}
+.gallery-layout {
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	grid-template-columns: repeat(auto-fill, minmax(328px, 0fr));
+	gap: 10px;
+	height: auto;
+}
