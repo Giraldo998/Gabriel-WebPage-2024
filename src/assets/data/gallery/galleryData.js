@@ -1,4 +1,4 @@
-import {oroMolido, funza, gradosFuba, mexico, planMusical, peru} from '../img'
+import {oroMolido, funza, gradosFuba, mexico, planMusical, peru} from '../../img'
 
 export const galleryData = [
 	{
