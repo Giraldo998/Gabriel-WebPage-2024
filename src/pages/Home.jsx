@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import {banner, profilePicture} from '../assets/img';
 import {AboutMe, GalleryCard} from '../components';
 import {Navbar} from '../components/ui';
