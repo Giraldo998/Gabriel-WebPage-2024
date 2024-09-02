@@ -1,7 +1,9 @@
-import React from 'react'
+import {Navbar} from '../components/ui'
 
 export const Manager = () => {
   return (
-    <div>Manager</div>
+    <>
+      <Navbar/>
+    </>
   )
 }

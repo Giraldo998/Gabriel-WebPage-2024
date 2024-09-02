@@ -1,7 +1,10 @@
-import React from 'react'
+import { Navbar } from '../components/ui'
 
 export const Teacher = () => {
+  
   return (
-    <div>Teacher</div>
+    <>
+      <Navbar />
+    </>
   )
 }
