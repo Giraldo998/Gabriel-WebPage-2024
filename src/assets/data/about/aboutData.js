@@ -1,4 +1,4 @@
-import { coverAbout } from "../../img";
+import { coverAbout} from "../../img";
 
 export const aboutData = [
    {
@@ -16,7 +16,8 @@ export const aboutData = [
    {
       id: 3,
       profile: 'Gestor investigador',
-      description: 'A través de diferentes instituciones he podido buscar las necesidades del sector musical y han sido los propios artistas quienes han planteado a través de estos programas las posibles soluciones. Algunas de las soluciones se han convertido en proyectos que hemos seguido para encontrar los recursos humanos y financieros para su realización.',
+      description: 'Mediante varias instituciones, he podido buscar las necesidades del sector musical y, junto a los artistas, hemos propuesto soluciones que, a través de estos programas, han hecho posible su realización.',
       picture: coverAbout
    }
+   
 ]

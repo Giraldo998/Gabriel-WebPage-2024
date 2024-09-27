@@ -1,6 +1,7 @@
 import { NavLink } from 'react-router-dom';
 
 export const PagesLinks = ({path}) => {
+	 
 	return (
 		<div className="pages" style={path !== '/' ? {display: 'flex'} : {}}>
 			<div style={path === '/docente' ? {display: 'none'} : {}}>
@@ -10,7 +11,7 @@ export const PagesLinks = ({path}) => {
 			</div>
 			<div style={path === '/gestor' ? {display: 'none'} : {}}>
 				<NavLink className="nav-link" to={'/gestor'}>
-					Gestor investigador
+					Gestor
 				</NavLink>
 			</div>
 			<div style={path === '/artista' ? {display: 'none'} : {}}>

@@ -1,6 +1,6 @@
-import {NavLink, useLocation} from 'react-router-dom';
-import {logo} from '../../assets/img';
+import { NavLink, useLocation } from 'react-router-dom';
 import { DefaultLinks, PagesLinks } from './components';
+import { logo } from '../../assets/img';
 import './navbar.css';
 
 export const Navbar = () => {

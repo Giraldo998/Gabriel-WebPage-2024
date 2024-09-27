@@ -1,6 +1,6 @@
-import {banner, profilePicture} from '../assets/img';
-import {AboutMe, GalleryCard} from '../components';
-import {Navbar} from '../components/ui';
+import { banner, profilePicture } from '../assets/img';
+import { AboutMe, GalleryCard } from '../components';
+import { Footer, Navbar } from '../components/ui';
 
 export const Home = () => {
 
@@ -10,7 +10,12 @@ export const Home = () => {
 				<Navbar/>
 				<section className="banner-container">
 					<div className="banner-background">
-						<img src={banner} alt="banner_euphonium" />
+						<img src={ banner } alt="banner_euphonium" />
+						<div className="greeting-container">
+							<p>Hola, soy <br />
+								Gabriel Peña
+							</p>
+						</div>
 					</div>
 					<div className="profile-picture">
 						<img src={profilePicture} alt="profile_picture_ilustrated" />
@@ -19,8 +24,17 @@ export const Home = () => {
 			</header>
 
 			<main>
+				<section className="about-container" id="aboutMe">
+					<div className="about-description">
+						<h2>Sobre mí</h2>
+						<p>Soy un profesional multifacético: docente con experiencia, artista con presentaciones internacionales y gestor investigador en proyectos musicales a nivel nacional. Descubre más sobre mi trayectoria</p>
+					</div>
+					<div className="about-layout">
+						<AboutMe />
+					</div>
+				</section>
 				<section className="gallery-container" id="gallery">
-					<div className="description">
+					<div className="gallery-description">
 						<h2>Galería</h2>
 						<p>
 							Te invito a que conozcas algunos de los lugares que he
@@ -32,18 +46,9 @@ export const Home = () => {
 						<GalleryCard />
 					</div>
 				</section>
-
-				<section className="about-container" id="aboutMe">
-					<div className="about-title">
-						<h2>Sobre mí</h2>
-					</div>
-					<div className="about-layout">
-						<AboutMe />
-					</div>
-				</section>
 			</main>
 
-			<footer>{/* contacto */}</footer>
+			<Footer/>
 		</>
 	);
 };

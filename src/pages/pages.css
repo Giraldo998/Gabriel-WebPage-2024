@@ -1,0 +1,32 @@
+.body_page{
+   height: 100%;
+   padding-top: 90px;
+   
+   h1{text-align: center;}
+   
+   .content{
+      font-size: 1.1em;
+      text-align: justify;
+      hyphens: auto; /* Activa la hifensación automática */
+      p{
+         word-spacing: 4px;
+         letter-spacing: 0.05em;
+      }
+      .first_content{
+         /* margin-bottom: 20px; */
+         img{
+            width: 260px;
+            height: 260px;
+            float: right;      
+         }
+      }
+      
+   }
+}
+
+@media (max-width: 500px) {
+   .body_page{
+      padding-inline: 30px;
+      margin-bottom: 50px;
+   }
+}

@@ -74,3 +74,14 @@ nav {
 		}
 	}
 }
+
+@media (max-width: 500px) {
+	.nav-container {
+		.navbar {
+			padding-inline: 10px;
+			width: 90%;
+		}
+	}
+
+	
+}
